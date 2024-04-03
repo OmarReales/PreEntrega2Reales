@@ -4,5 +4,19 @@
     box-sizing: border-box;
 }
 .navbar{
-    background-color: blueviolet;
+    background-color: rgb(25, 0, 50);
+}
+.jumbotron{
+    background-image: url(/assets/wine-541922_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+p{
+    padding: 50px !important; 
+}
+.row{
+    background-color: rgb(25, 0, 50);
+    background-size: cover;
+    background-position: center;
 }
