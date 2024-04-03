@@ -46,14 +46,96 @@
         <!-- navbar fin-->   
     </header>
     <main>
-        <h1>Nuestros Vinos</h1>
-        <img src="../assets/ai-generated-8166210_1280.jpg" alt="">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos voluptate provident dignissimos, sed quam voluptatibus optio iste voluptatum eos distinctio hic quae, totam, doloribus a inventore molestias iusto! Libero, repudiandae?
-        </p>
-        <img src="../assets/ai-generated-8166210_1280.jpg" alt="">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt consequuntur quibusdam quod veritatis, atque commodi, facilis quos harum qui vitae ipsum cumque illum laborum natus voluptatem rerum nulla molestiae nemo?</p>
-        <img src="../assets/ai-generated-8166210_1280.jpg" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque accusantium debitis rerum blanditiis repudiandae vel necessitatibus cum fugiat unde repellat, dolorum accusamus at, praesentium provident vitae, hic incidunt totam ipsa!</p>
+        <!-- carrusel inicio-->
+        <div id="carouselDark" class="carousel carousel-dark slide " data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselDark" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselDark" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselDark" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/ai-generated-8166210_1280.jpg" class="d-block w-100" alt="Slide 1">
+                    <div class="carousel-caption d-none d-sm-block">
+                        <h5>First slide label</h5>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/cabernet.jpg" class="d-block w-100" alt="Slide 2">
+                    <div class="carousel-caption d-none d-sm-block">
+                        <h5>Second slide label</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/espumante.jpg" class="d-block w-100" alt="Slide 3">
+                    <div class="carousel-caption d-none d-sm-block">
+                        <h5>Third slide label</h5>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselDark" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselDark" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+        <!-- carrusel fin-->
+        <!-- galeria inicio-->
+        <div class="container-fluid ">
+            <div class="row text-center text-md-start pb-2 bg-dark text-white">
+                <div class="card col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" >
+                    <img class="card-img-top" src="/assets/ai-generated-8166210_1280.jpg" alt="Card image">
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-6 mx-auto mt-6">
+                    <p class="h5 mb-3 text-center">Diaguitas Malbec</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est doloribus ex porro recusandae repellat aspernatur veritatis reprehenderit sit illo, omnis illum laborum odit, necessitatibus dolore magni et delectus consequatur iste.</p>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-6 mx-auto mt-6">
+                    <p class="h5 mb-3 text-center">Diaguitas Syrah</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, vero reprehenderit ducimus inventore rerum hic dolor repellat aut repudiandae, dignissimos debitis a! Nisi laudantium illum accusamus qui vitae, quia eligendi.</p>
+                </div>
+                <div class="card col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" >
+                    <img class="card-img-top" src="/assets/syrah.jpg" alt="Card image">
+                </div>
+                <div class="card col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" >
+                    <img class="card-img-top" src="/assets/cabernet.jpg" alt="Card image">
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-6 mx-auto mt-6">
+                    <p class="h5 mb-3 text-center">Diaguitas Cabernet</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est doloribus ex porro recusandae repellat aspernatur veritatis reprehenderit sit illo, omnis illum laborum odit, necessitatibus dolore magni et delectus consequatur iste.</p>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-6 mx-auto mt-6">
+                    <p class="h5 mb-3 text-center">Diaguitas Blanco</p>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, vero reprehenderit ducimus inventore rerum hic dolor repellat aut repudiandae, dignissimos debitis a! Nisi laudantium illum accusamus qui vitae, quia eligendi.</p>
+                </div>
+                <div class="card col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" >
+                    <img class="card-img-top" src="/assets/vinoblanco.jpg" alt="Card image">
+                </div>
+                <div class="card col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" >
+                    <img class="card-img-top" src="/assets/espumante.jpg" alt="Card image">
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-6 mx-auto mt-6">
+                    <p class="h5 mb-3 text-center">Diaguitas Espumante</p>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est doloribus ex porro recusandae repellat aspernatur veritatis reprehenderit sit illo, omnis illum laborum odit, necessitatibus dolore magni et delectus consequatur iste.</p>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-6 mx-auto mt-6">
+                    <p class="h5 mb-3 text-center">Diaguitas Rosado</p>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, vero reprehenderit ducimus inventore rerum hic dolor repellat aut repudiandae, dignissimos debitis a! Nisi laudantium illum accusamus qui vitae, quia eligendi.</p>
+                </div>
+                <div class="card col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" >
+                    <img class="card-img-top" src="/assets/rosado.jpg" alt="Card image">
+                </div>>
+            </div>
+        </div>
+        
+
+        <!-- galeria fin-->
     </main>
     <!-- footer inicio-->
     <footer class="bg-dark text-white pt-5 pb-4">

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .navbar{
-    background-color: rgb(25, 0, 50);
+    background-color: rgb(49, 48, 49);
 }
 .jumbotron{
     background-image: url(/assets/wine-541922_1280.jpg);
@@ -16,10 +16,13 @@ p{
     padding: 50px !important; 
 }
 .row{
-    background-color: rgb(25, 0, 50);
+    background-color: rgb(72, 70, 73);
     background-size: cover;
     background-position: center;
 }
 a:hover{
     color: white !important;
+}
+.carouselDark{
+    
 }
