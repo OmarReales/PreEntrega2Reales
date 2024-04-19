@@ -1,25 +1,32 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.navbar{
-    background-color: rgb(49, 48, 49);
+
+.navbar {
+  background-color: rgb(49, 48, 49);
 }
-.jumbotron{
-    background-image: url(/assets/wine-541922_1280.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 350px;
+
+.jumbotron {
+  background-image: url(../assets/wine-541922_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
 }
-p{
-    padding: 50px !important; 
+
+p {
+  padding: 50px !important;
 }
-.row{
-    background-color: rgb(72, 70, 73);
-    background-size: cover;
-    background-position: center;
+
+.row {
+  background-color: rgb(72, 70, 73);
+  background-size: cover;
+  background-position: center;
 }
-a:hover{
-    color: white !important;
+
+a:hover {
+  color: white !important;
 }
+
+/*# sourceMappingURL=styles.css.map */
