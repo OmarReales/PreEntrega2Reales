@@ -9,7 +9,7 @@
 }
 
 .jumbotron {
-  background-image: url(../assets/wine-541922_1280.jpg);
+  background-image: url(../assets/wine-541922_1280.jpg) !important;
   background-size: cover;
   background-position: center;
   height: 350px;
