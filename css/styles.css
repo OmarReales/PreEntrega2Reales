@@ -28,6 +28,7 @@ body {
   background-size: cover;
   background-position: center;
   height: 340px;
+  overflow: hidden;
 }
 
 p {
@@ -91,9 +92,9 @@ a:hover {
 }
 
 img {
-  width: 100%;
+  width: 300px;
   height: auto;
-  display: block;
+  object-fit: cover;
 }
 
 .titulo__nosotros {

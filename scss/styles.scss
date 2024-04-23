@@ -80,9 +80,9 @@ a:hover{
     transform: scale(1.05);
 }
 img {
-    width: 100%;
+    width: 300px;
     height: auto;
-    display: block;
+    object-fit: cover;
 }
 .titulo__nosotros {
     text-align: center;
