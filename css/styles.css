@@ -7,7 +7,7 @@
 }
 
 .navbar {
-  background-color: rgb(47, 32, 54);
+  background-color: rgb(47, 32, 54) !important;
 }
 
 footer {
@@ -28,7 +28,6 @@ body {
   background-size: cover;
   background-position: center;
   height: 340px;
-  overflow: hidden;
 }
 
 p {
