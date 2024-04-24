@@ -1,3 +1,15 @@
+//variables
+/** @import url(_variables.scss);**/
+//base
+/**@import url(./base/_base.scss);**/
+/** @import url(./base/_typography.scss);**/
+/** @import url(./base/_utils.scss)**/
+//components
+/** @import url(.components/_navbar.scss);**/
+//layouts
+/** @import url(.layouts/_base-layout.scss);**/
+
+
 *{
     margin: 0;
     padding: 0;
@@ -5,13 +17,14 @@
     font-family: 'open-sans', sans-serif;
 }
 .navbar{
-    background-image: linear-gradient(70deg, #2D105D,#831565,#C43B5E,#EE7451,#FFB550,#F9F871);
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
+
 }
 footer{
     background-color: rgb(47, 32, 54);
 }
 body{
-    background-image: linear-gradient(70deg, #2D105D,#831565,#C43B5E,#EE7451,#FFB550,#F9F871);;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
     font-family: Arial, sans-serif;
     padding: 20px;
     margin: 0;

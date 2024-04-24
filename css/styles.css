@@ -1,4 +1,10 @@
 @charset "UTF-8";
+/** @import url(_variables.scss);**/
+/**@import url(./base/_base.scss);**/
+/** @import url(./base/_typography.scss);**/
+/** @import url(./base/_utils.scss)**/
+/** @import url(.components/_navbar.scss);**/
+/** @import url(.layouts/_base-layout.scss);**/
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +13,7 @@
 }
 
 .navbar {
-  background-image: linear-gradient(70deg, #2D105D, #831565, #C43B5E, #EE7451, #FFB550, #F9F871);
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(100, 43, 115) 0%, rgb(4, 0, 4) 90%);
 }
 
 footer {
@@ -15,7 +21,7 @@ footer {
 }
 
 body {
-  background-image: linear-gradient(70deg, #2D105D, #831565, #C43B5E, #EE7451, #FFB550, #F9F871);
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(100, 43, 115) 0%, rgb(4, 0, 4) 90%);
   font-family: Arial, sans-serif;
   padding: 20px;
   margin: 0;

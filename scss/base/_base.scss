@@ -1,0 +1,27 @@
+html{
+    color-scheme: light;
+    scroll-behavior: smooth;
+}
+
+html,body {
+    overflow-y:auto;
+    overflow-x: hidden;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -webkit-top-hightlight-color: transparent;
+
+    color: $body-text-color;
+    font-size: $font-size-base;
+    line-height: $font-height-base;
+    font-weight: $font-weight-base;
+    font-family: $font-primary;
+    background-color: $body-bg-color;
+}
