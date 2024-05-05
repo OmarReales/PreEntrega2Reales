@@ -36,10 +36,6 @@ body {
   height: 340px;
 }
 
-p {
-  padding: 50px !important;
-}
-
 .row {
   background-color: rgb(47, 32, 54);
   background-size: cover;
@@ -54,6 +50,10 @@ a:hover {
   padding: 1px;
   background-color: rgb(236, 93, 172);
   border: none;
+}
+
+.card-text {
+  padding: 50px;
 }
 
 .carousel {
@@ -116,6 +116,11 @@ img {
 }
 
 /* estilos pagina nosotros fin*/
+/* Estilos pagina nuestrosvinos */
+.mb-3 {
+  padding: 50px;
+}
+
 /*estilos pagina contacto inicio*/
 .container__contact {
   font-family: Arial, sans-serif;
@@ -124,6 +129,7 @@ img {
   justify-content: center;
   align-items: flex-start;
   padding: 10px;
+  box-sizing: border-box;
 }
 
 .container {
@@ -142,6 +148,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin: 40px;
 }
 
 .company-info h2, .company-info h3 {
@@ -151,7 +158,7 @@ img {
 
 .company-info p {
   color: #666; /* Color gris para el texto normal */
-  line-height: 1.5; /* Espaciado de línea para mejorar legibilidad */
+  line-height: 1.3; /* Espaciado de línea para mejorar legibilidad */
   margin: 0; /* Elimina márgenes externos en los párrafos */
 }
 
@@ -185,6 +192,7 @@ form {
 .form-group label {
   display: block;
   margin-bottom: 5px;
+  line-height: 2;
 }
 
 .form-group input[type=text],
@@ -196,16 +204,23 @@ form {
   box-sizing: border-box; /* para que padding no afecte el ancho total */
 }
 
+.form-group textarea {
+  min-width: 100%;
+  resize: none;
+  height: 150px;
+  font-family: sans-serif;
+}
+
 button {
   padding: 10px 20px;
-  background-color: #007BFF;
+  background-color: #350729;
   color: white;
   border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #94116d;
 }
 
 /* Media query para manejo responsive */
